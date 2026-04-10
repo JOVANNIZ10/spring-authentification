@@ -1,6 +1,5 @@
 package com.ivan.auth.auth_service.model;
 import java.util.UUID;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,5 +24,5 @@ public class User {
 
     @Column(name = "password", nullable = false, length = 60)
     private String password;
-    
+
 }
